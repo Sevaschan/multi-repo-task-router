@@ -1,0 +1,5 @@
+dist/
+.stage/
+.source-stage/
+.DS_Store
+._*

@@ -1,0 +1,10 @@
+{
+  "name": "multi-repo-task-router",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/validate.mjs",
+    "package": "node package.mjs"
+  }
+}

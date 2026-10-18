@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "id": "multi-repo-task-router",
+  "name": "Multi-Repo Task Router",
+  "description": "Turn a cross-repository request into an ownership-aware execution map with context boundaries, dependency order, per-repository prompts, and completion evidence.",
+  "source": { "format": "ipollowork-extension-manifest", "origin": "local", "trusted": false },
+  "package": {
+    "version": "1.0.0",
+    "publisher": { "id": "sevaschan", "name": "Sevaschan" },
+    "updateId": "sevaschan/multi-repo-task-router",
+    "compatibility": { "ipollowork": ">=0.50.12" }
+  },
+  "resources": [{
+    "type": "skill",
+    "id": "multi-repo-task-router",
+    "label": "Multi-Repo Task Router",
+    "path": "skills/multi-repo-task-router",
+    "required": true
+  }]
+}
